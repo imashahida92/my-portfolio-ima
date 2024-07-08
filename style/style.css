@@ -192,3 +192,35 @@ main{
     margin-top: 50px;
     margin-bottom: 113px;
 }
+/* footer */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 117px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"],footer input[type="email"]{
+    height: 64px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400px;
+    border-radius: 5px;
+    background-color: white;
+    color: #757575;
+    margin-bottom: 24px;
+}
+footer textarea{
+    height: 180px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400px;
+    border-radius: 5px;
+    background-color: white;
+    color: #757575;
+    margin-bottom: 24px;
+}
+.img-icons{
+    padding-right: 24px;
+}
